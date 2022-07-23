@@ -1,5 +1,7 @@
 ﻿string[] input = { "еда", "стагетти", "соус", "поле", "лес" };
+
 string output = FindShortWords(input);
+
 string FindShortWords(string[] input)
 {
     string output = string.Empty;
