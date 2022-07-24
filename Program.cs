@@ -1,15 +1,15 @@
 ﻿string[] input =
 { "90", "еда", "стагетти", "соус", "поле", "лес", "папарацци"};
-Console.WriteLine(PrintArray(WordCount(input)));
+Console.WriteLine(PrintArray(LetterCount(input)));
 
-string[] WordCount(string[] input)
+string[] LetterCount(string[] input)
 {
     int count = 0;
     for (int i = 0; i < input.Length; i++)
     {
-        string temporary = string.Empty;
-        temporary = input[i];
-        if (temporary.Length <= 3)
+        string temp = string.Empty;
+        temp = input[i];
+        if (temp.Length <= 3)
         {
             count++;
         }
